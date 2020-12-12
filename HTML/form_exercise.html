@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fake company form</title>
+</head>
+<body>
+	<h1>Register</h1>
+
+	<form>
+
+		<label for="first_name">First Name:</label>
+		<input id="first_name"type="text" placeholder="Paritosh" name="firstName" required>
+		<label for="last_name">Last Name:</label>
+		<input id="last_name" type="text" placeholder="Dadhich" name="lastName" required>
+
+		<!-- <p></p> -->
+<br>
+		<label for="male">Male</label>
+		<input name="sex" id="male" type="radio" value="male" required>
+		<label for="female">Female</label>
+		<input name="sex" id="female" type="radio" value="female" required>
+		<label for="other">Other</label>
+		<input name="sex" id="other "type="radio" required>
+
+<br>
+		<label for="email">Email:</label>
+		<input id="email" type="email" required>
+		<label for="password">Password:</label>
+		<input id="password" type="password"  minlength="5"  maxlength="10" required>
+<br>
+		Birthday:
+		<select name="dob">
+			<option>Month</option>
+			<option>Jan</option>
+			<option>Feb</option>
+			<option>Mar</option>
+			<option>Apr</option>
+			<option>May</option>
+			<option>Jun</option>
+			<option>Jul</option>
+			<option>Aug</option>
+			<option>Sep</option>
+			<option>Oct</option>
+			<option>Nov</option>
+			<option>Dec</option>
+		</select>
+		<select>
+			<option>Day</option><option>1</option><option>2</option><option>3</option>
+			<option>4</option><option>5</option><option>6</option><option>7</option>
+			<option>8</option><option>9</option><option>10</option><option>11</option>
+		</select>
+	    <select>
+	    	<option>Year</option><option>2010</option><option>2011</option><option>2012</option>
+	    	<option>2013</option><option>2014</option><option>2015</option><option>2016</option>
+	    	<option>2017</option><option>2018</option><option>2019</option><option>2020</option>
+	    </select>
+<br>
+		I agree to the terms and conditions <input type="checkbox" required>	    
+<br>
+		<button>Submit</button>
+	</form>
+
+</body>
+</html>
